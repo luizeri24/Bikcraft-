@@ -1,0 +1,112 @@
+.contato-bg {
+  background-image: url(../img/bg-contato.jpg);
+  background-size: cover;
+  padding-top: 40px;
+  height: 160px;
+  width: 100%;
+  margin-top: 92px;
+  text-align: center;
+}
+
+.contato-bg h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contato-bg h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 12px auto 6px auto;
+}
+
+.contato-bg p {
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  padding-top: 10px;
+}
+
+.contato_dados label {
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+}
+
+.contato_dados {
+  margin-top: 40px;
+}
+
+.botao:hover {
+  border-color: black;
+  color: black;
+}
+
+.contato_info {
+  float: left;
+  margin-right: 10px;
+}
+
+.contato_info h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fec63e;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.contato_info p {
+  color: black;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+  display: block;
+}
+
+.contato_info .contato-child {
+  margin-top: 20px;
+}
+
+.contato_sociais {
+  padding-top: 20px;
+}
+
+.contato_sociais h3 {
+  line-height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.contato_sociais ul li {
+  display: inline-block;
+}
+
+.contato_sociais a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.contato_sociais a:hover {
+  border-color: black;
+}
+
+.contato_mapa {
+  margin: 40px auto;
+}

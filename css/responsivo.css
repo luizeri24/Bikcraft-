@@ -1,0 +1,198 @@
+/* Estilo para tablet */
+@media only screen and (min-width: 778px) and (max-width: 979px) {
+  /* Qualidade Home */
+  .qualidade::after {
+    right: 66px;
+    z-index: -1;
+  }
+
+  .qualidade-lista li {
+    text-align: center;
+    padding: 30px;
+  }
+
+  /* Footer */
+  .footer_sociais a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 5px;
+  }
+
+  .footer_sociais a img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+
+  .produto_item .h2-produto {
+    top: -150px;
+    margin-bottom: -60px;
+  }
+
+  .logo-produto {
+    background: black;
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 20px 30px;
+    height: 122px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+    height: 49px;
+    padding-top: 6px;
+  }
+
+  .quote_clientes cite {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin-right: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid black;
+    width: 136px;
+    float: left;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    display: block;
+  }
+
+  .header_menu ul li a:hover {
+    color: white;
+    border-color: white;
+  }
+  /* Introdução */
+  .introducao {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .introducao h1 {
+    line-height: 45px;
+    margin-top: 30px;
+    font-size: 36px;
+  }
+
+  .call {
+    padding-top: 4px;
+  }
+
+  .qualidade::after {
+    display: none;
+  }
+
+  .qualidade-lista li {
+    padding: 10px 0;
+  }
+
+  .bg-sobre {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .historia-missao p {
+    padding: 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .historia-missao h2 {
+    margin-bottom: 0;
+  }
+
+  .valores_subtitulo ul li {
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .bg-produtos {
+    margin-top: 0px;
+  }
+
+  .produto_item .h2-produto {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .logo-produto {
+    background: black;
+    padding: 41px 0;
+  }
+
+  .produto_info p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    height: 49px;
+    padding-top: 14px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bg-portfolio {
+    margin-top: 0;
+  }
+
+  .quote_clientes cite {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    color: black;
+    float: right;
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contato-bg {
+    margin-top: 0px;
+  }
+
+  .contato_dados {
+    padding-right: 0px;
+  }
+}

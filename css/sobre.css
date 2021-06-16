@@ -1,0 +1,81 @@
+.bg-sobre {
+  background-image: url("../img/bg-sobre.jpg");
+}
+.bg-sobre h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 8px 0;
+  line-height: 5px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.bg-sobre h1::after {
+  content: "";
+  display: block;
+  background: white;
+  width: 60px;
+  height: 3px;
+  margin: 24px auto 10px auto;
+}
+
+.bg-sobre p {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+}
+
+.historia-missao {
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+.subtitulo-sobre {
+  font-size: 24px;
+  color: black;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.subtitulo-sobre::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 6px 0 3px 0;
+}
+
+.subtitulo-p {
+  text-align: left;
+  padding-right: 60px;
+  font-size: 18px;
+  margin-bottom: 2px;
+  line-height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.valores_subtitulo ul li {
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+}
+
+.equipe-sobre {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qualidade h2 {
+  letter-spacing: 2px;
+}

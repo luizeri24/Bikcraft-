@@ -1,0 +1,49 @@
+img-produtos {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.produto_info {
+  background: black;
+}
+
+.produto_info p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 30px 40px;
+  height: 180px;
+}
+
+.produto_info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+}
+.produto_info ul li {
+  margin-top: 2px;
+}
+
+.produto_info ul li:nth-child(2n) {
+  margin-left: 2px;
+}
+
+.quebra {
+  padding: 60px 0;
+}
+
+.produto_item {
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
