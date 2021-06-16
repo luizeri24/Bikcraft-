@@ -67,7 +67,7 @@
   text-transform: uppercase;
 }
 
-.contato_info p {
+.contato_info .contato-span {
   color: black;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
