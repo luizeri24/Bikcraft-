@@ -1,47 +1,127 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
 html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
 body {
   margin: 0;
 }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
 main {
   display: block;
 }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
 hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
 pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
 a {
   background-color: transparent;
 }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
 b,
 strong {
   font-weight: bolder;
 }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
 small {
   font-size: 80%;
 }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
 sub,
 sup {
   font-size: 75%;
@@ -49,39 +129,82 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
 img {
   border-style: none;
 }
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
 button,
 input {
+  /* 1 */
   overflow: visible;
 }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
 button,
 select {
+  /* 1 */
   text-transform: none;
 }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -89,68 +212,165 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
+/**
+ * Correct the padding in Firefox.
+ */
+
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
 legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
 progress {
   vertical-align: baseline;
 }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
 textarea {
   overflow: auto;
 }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
 [type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
 details {
   display: block;
 }
+
+/*
+ * Add the correct display in all browsers.
+ */
+
 summary {
   display: list-item;
 }
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
 template {
   display: none;
 }
+
+/**
+ * Add the correct display in IE 10.
+ */
+
 [hidden] {
   display: none;
 }
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */
+
 a {
   text-decoration: none;
 }
+
+/**
+ * Remove list-style
+ */
+
 ol,
 ul {
   list-style: none;
 }
+
 html,
 body,
 div,
@@ -188,6 +408,7 @@ main {
   border: 0;
   vertical-align: baseline;
 }
+
 h1,
 h2,
 h3,
@@ -198,29 +419,34 @@ p,
 a,
 ul {
   font-size: 1em;
-  font-weight: 400;
+  font-weight: normal;
 }
+
 *,
-:before,
-:after {
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   position: relative;
 }
+
 .container:after,
 .container:before {
   content: " ";
   display: table;
 }
+
 .container:after {
   clear: both;
 }
+
 .grid-1,
 .grid-2,
 .grid-3,
@@ -242,6 +468,7 @@ ul {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .grid-1 {
   width: 40px;
 }
@@ -293,10 +520,12 @@ ul {
 .grid-1-3 {
   width: 300px;
 }
+
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   .container {
     width: 768px;
   }
+
   .grid-1 {
     width: 28px;
   }
@@ -349,6 +578,7 @@ ul {
     width: 236px;
   }
 }
+
 @media only screen and (max-width: 787px) {
   .container {
     width: 300px;
@@ -371,13 +601,15 @@ ul {
   .grid-16,
   .grid-1-3 {
     width: 300px;
-    margin: 0 0 20px;
+    margin: 0 0 20px 0;
     float: none;
   }
 }
+
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -393,6 +625,7 @@ header {
   top: 0;
   z-index: 10;
 }
+
 .header_menu {
   text-align: right;
   text-transform: uppercase;
@@ -404,21 +637,24 @@ header {
   margin-right: 10px;
   margin-top: 10px;
 }
+
 .header_menu ul li a {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: #000;
+  color: black;
   letter-spacing: 2px;
   line-height: 20px;
   padding: 10px 0;
 }
 .header_menu ul li a:hover {
-  color: #fff;
+  color: white;
 }
+
 .header_menu ul li a.menu_ativo {
-  color: #fff;
+  color: white;
 }
+
 .introducao {
   width: 100%;
   height: 380px;
@@ -430,24 +666,26 @@ header {
 }
 .introducao h1 {
   font-size: 48px;
-  color: #fff;
-  font-weight: 700;
+  color: white;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 60px;
 }
+
 .quote-externo {
   max-width: 320px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
 .quote-externo p {
-  color: #fff;
+  color: white;
   font-size: 14px;
   font-style: italic;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 20px;
 }
 .quote-externo p::before,
@@ -456,71 +694,80 @@ header {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
-  margin: 14px auto 10px;
+  background: white;
+  margin: 14px auto 10px auto;
 }
+
 .citacao {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.1em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
-  color: #fff;
+  color: white;
 }
+
 .botao {
   border: 3px solid #fec63e;
   padding: 10px 30px;
   color: #fec63e;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 20px;
   letter-spacing: 0.1em;
   margin: 0 auto;
 }
+
 .botao:hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: white;
+  color: white;
 }
+
 .subtitulo {
   font-size: 24px;
   line-height: 30px;
-  color: #000;
+  color: black;
   letter-spacing: 0.1em;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 36px;
 }
+
 .subtitulo::after {
   content: "";
   display: block;
-  background: #000;
+  background: black;
   width: 60px;
   height: 3px;
   margin: 6px auto;
 }
+
 .produtos {
   padding: 40px 0;
 }
 .produtos_lista li {
   background-color: #fec63e;
 }
+
 .produtos_lista li img {
   margin: 0 auto;
   max-width: 100%;
   padding: 20px;
 }
+
 .produtos_lista_img {
-  background-color: #000;
+  background-color: black;
   display: block;
   margin: 0 auto;
 }
+
 .produtos-subtitulo {
-  color: #000;
-  font-weight: 700;
+  color: black;
+  font-weight: bold;
   font-size: 18px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
@@ -530,51 +777,56 @@ header {
   letter-spacing: 0.1em;
   margin-top: 12px;
 }
+
 .produtos-subtitulo::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: black;
   margin: 2px auto;
 }
 .produtos-descricao {
-  color: #000;
-  font-weight: 400;
+  color: black;
+  font-weight: normal;
   font-size: 14px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: 20px;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
+
 .call {
   text-align: center;
   padding-top: 40px;
   clear: both;
 }
+
 .call p {
-  color: #000;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: 20px;
 }
+
 .call-botao {
   border: 3px solid #fec63e;
   padding: 10px 30px;
   color: #fec63e;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 20px;
   letter-spacing: 0.1em;
-  margin: 0 auto;
+  margin: 0px auto;
 }
+
 .call-botao:hover {
-  color: #000;
-  border-color: #000;
+  color: black;
+  border-color: black;
 }
 .call-botao-branco {
   border: 3px solid #fec63e;
@@ -582,18 +834,19 @@ header {
   color: #fec63e;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 20px;
   letter-spacing: 0.1em;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .call-botao-branco:hover {
-  color: #fff;
-  border-color: #fff;
+  color: white;
+  border-color: white;
 }
+
 .portfolio-titulo {
   color: #fec63e;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 24px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
@@ -604,6 +857,7 @@ header {
   margin-top: 12px;
   margin-bottom: 40px;
 }
+
 .portfolio-titulo::after {
   content: "";
   display: block;
@@ -612,26 +866,29 @@ header {
   background: #fec63e;
   margin: 14px auto;
 }
+
 .portfolio {
   width: 100%;
-  background: #000;
+  background: black;
   padding: 40px 0;
   display: block;
 }
 .call .portfolio-p {
-  color: #fff;
+  color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: 20px;
 }
+
 .portfolio_lista :last-child {
   margin-top: 10px;
 }
 .qualidade {
   padding: 40px 0;
 }
+
 .qualidade::after {
   content: "";
   width: 634px;
@@ -646,19 +903,21 @@ header {
 .qualidade h2 {
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   line-height: 30px;
   line-height: 0.1em;
-  color: #000;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
 .qualidade-lista {
   overflow: hidden;
 }
+
 .qualidade h2::after {
   content: "";
   display: block;
@@ -667,17 +926,20 @@ header {
   background: #000;
   margin: 18px auto;
 }
+
 .qualidade img {
   margin: 0 auto;
 }
+
 .qualidade-lista li {
   padding: 40px 0;
   text-align: center;
 }
+
 .qualidade-lista h3 {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
@@ -688,21 +950,23 @@ header {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: black;
   margin: 6px auto;
 }
+
 .qualidade-lista p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
-  font-weight: 400;
-  color: #000;
+  font-weight: normal;
+  color: black;
   line-height: 20px;
   text-align: center;
 }
+
 .quebra {
   width: 100%;
   height: 220px;
-  background-image: url(../img/bg-footer.jpg);
+  background-image: url("../img/bg-footer.jpg");
   background-size: cover;
   text-align: center;
   padding: 40px;
@@ -713,24 +977,27 @@ header {
 .quebra cite {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 20px;
-  color: #fff;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   letter-spacing: 0.1em;
 }
+
 .footer {
-  background: #000;
-  padding: 20px 0;
+  background: black;
+
+  padding: 20px 0px;
   width: 100%;
 }
+
 .footer h3 {
   font-size: 18px;
   line-height: 25px;
   color: #fec63e;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -740,46 +1007,55 @@ header {
   width: 60px;
   height: 3px;
   background: #fec63e;
-  margin: 6px 0 12px;
+  margin: 6px 0 12px 0;
 }
+
 .footer_historia {
   padding-right: 40px;
 }
+
 .footer_historia p {
   padding-top: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 440px;
   position: static;
-  color: #fff;
+  color: white;
 }
+
 .footer_contato ul li {
-  color: #fff;
+  color: white;
   line-height: 20px;
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .footer_sociais ul li {
   display: inline-block;
   margin-right: 10px;
 }
+
 .footer_sociais a {
   border: 3px solid #fec63e;
   display: block;
   padding: 10px;
 }
+
 .footer_sociais a:hover {
-  border-color: #fff;
+  border-color: white;
 }
+
 .copy {
   width: 100%;
   background: #fec63e;
   padding: 20px;
 }
+
 .copy h3 {
-  color: #000;
+  color: black;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .introducao-sobre {
   width: 100%;
   margin-top: 92px;
@@ -788,12 +1064,13 @@ header {
   padding-top: 30px;
   background-size: cover;
 }
+
 .js [data-slide] {
   position: relative;
 }
 .js [data-slide] > * {
   position: absolute;
-  top: 0;
+  top: 0px;
   opacity: 0;
 }
 .js [data-slide] > .active {
@@ -802,11 +1079,13 @@ header {
   transition: opacity 500ms;
   z-index: 1;
 }
+
 .js [data-slide-nav] {
   display: block;
   text-align: center;
   margin-top: 20px;
 }
+
 .js [data-slide-nav] > button {
   display: inline-block;
   width: 12px;
@@ -814,9 +1093,10 @@ header {
   margin: 4px;
   border: none;
   border-radius: 6px;
-  text-indent: -99px;
+  text-indent: -99;
   overflow: hidden;
 }
+
 .js [data-slide-nav] > button.active {
   background: #fec63e;
 }
@@ -828,21 +1108,24 @@ header {
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
+
 .fadeInRight {
   transform: translate3d(20px, 0, 0);
 }
+
 .bg-sobre {
-  background-image: url(../img/bg-sobre.jpg);
+  background-image: url("../img/bg-sobre.jpg");
 }
 .bg-sobre h1 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: white;
   padding: 8px 0;
   line-height: 5px;
   letter-spacing: 1px;
@@ -852,39 +1135,44 @@ header {
 .bg-sobre h1::after {
   content: "";
   display: block;
-  background: #fff;
+  background: white;
   width: 60px;
   height: 3px;
-  margin: 24px auto 10px;
+  margin: 24px auto 10px auto;
 }
+
 .bg-sobre p {
   text-align: center;
   font-size: 14px;
-  color: #fff;
+  color: white;
   line-height: 20px;
 }
+
 .historia-missao {
   padding-top: 60px;
   margin-top: 60px;
 }
+
 .subtitulo-sobre {
   font-size: 24px;
-  color: #000;
+  color: black;
   line-height: 30px;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   text-align: left;
   padding-bottom: 20px;
 }
+
 .subtitulo-sobre::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
-  margin: 6px 0 3px;
+  background: black;
+  margin: 6px 0 3px 0;
 }
+
 .subtitulo-p {
   text-align: left;
   padding-right: 60px;
@@ -892,127 +1180,75 @@ header {
   margin-bottom: 2px;
   line-height: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #000;
+  color: black;
 }
 .valores_subtitulo ul li {
-  color: #000;
+  color: black;
   font-size: 18px;
   line-height: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: block;
 }
+
 .equipe-sobre {
   text-align: center;
   margin-top: 20px;
 }
-.bg-portfolio {
-  background-image: url(../img/bg-portfolio.jpg);
-}
-.bg-portfolio h1 {
-  font-size: 36px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  line-height: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-top: 20px;
-}
-.bg-portfolio h1::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: #fff;
-  margin: 14px auto 10px;
-}
-.bg-portfolio p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 14px;
-  color: #fff;
-  line-height: 20px;
-}
-.quote_clientes {
-  padding: 0 0 60px;
-}
-.quote_clientes p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  position: relative;
-  padding: 60px 0 20px;
-  max-width: 460px;
-  margin: 0 auto;
-  color: #000;
-  font-style: italic;
-  line-height: 25px;
-  text-align: center;
-}
-.quote_clientes cite {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 700;
-  color: #000;
-  float: right;
-  margin-right: 280px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.portfolio {
-  margin: 0 auto;
-  padding: 60px 0;
-  display: block;
-  width: 100%;
-}
-.portfolio-img :last-child {
-  margin-top: 10px;
-}
+
 .qualidade h2 {
   letter-spacing: 2px;
 }
+
 .bg-produtos {
   background-image: url(../img/bg-produtos.jpg);
   margin-bottom: 60px;
 }
+
 .bg-produtos h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: white;
   line-height: 20px;
   margin-top: 20px;
 }
+
 .bg-produtos h1::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
-  margin: 24px auto 10px;
+  background: white;
+  margin: 24px auto 10px auto;
 }
+
 .bg-produtos p {
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 20px;
-  color: #fff;
+  color: white;
 }
+
 .logo-produto {
-  background: #000;
+  background: black;
   padding: 70px 0;
 }
+
 .logo-produto img {
   display: block;
   margin: 0 auto;
   width: 200px;
   height: 140px;
 }
+
 .produto_item .h2-produto {
   text-align: center;
   text-transform: uppercase;
   font-size: 36px;
-  font-weight: 700;
-  color: #fff;
+  font-weight: bold;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: -180px;
@@ -1021,125 +1257,144 @@ header {
 .produto_item .h2-produto::before {
   content: "";
   display: block;
-  background: #fff;
+  background: white;
   width: 60px;
   height: 3px;
-  margin: 6px auto 8px;
+  margin: 6px auto 8px auto;
 }
+
 .produto_item .h2-produto::after {
   content: "";
   display: block;
-  background: #fff;
+  background: white;
   width: 60px;
   height: 3px;
-  margin: 6px auto 8px;
+  margin: 6px auto 8px auto;
 }
+
 .orcamento {
-  background: #000;
+  background: black;
   padding: 60px;
 }
+
 .orcamento h2 {
   font-size: 24px;
   color: #fec63e;
   text-align: center;
   text-transform: uppercase;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.1em;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .orcamento h2::after {
   content: "";
   display: block;
   background: #fec63e;
   width: 60px;
   height: 3px;
-  margin: 6px auto 8px;
+  margin: 6px auto 8px auto;
   margin-top: 10px;
 }
 .form {
   padding-right: 60px;
 }
+
 .form label {
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: white;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
+
 .form input,
 .form textarea {
   border: 4px solid #fec63e;
   width: 100%;
   background: none;
-  color: #fff;
+  color: white;
   padding: 7px 10px;
   margin-bottom: 10px;
 }
+
 .form button {
   border: 4px solid #fec63e;
   background: none;
   margin-top: 20px;
   padding: 10px 40px;
 }
+
 .orcamento_dados {
-  color: #fff;
+  color: white;
   margin-bottom: 40px;
 }
+
 .orcamento_dados h3 {
   color: #fec63e;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
 }
+
 .orcamento_dados span {
   display: block;
   font-size: 18px;
   line-height: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .orcamento_dados ul {
+  padding-right: 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   letter-spacing: 0.1em;
-  padding: 10px 0;
+  padding: 10px 0px;
   list-style: none;
 }
 .orcamento_dados ul li {
-  padding: 10px;
+  padding: 10px 10px;
 }
+
 .orcamento_dados ul li:nth-child(odd) {
   background: #1d1d1d;
 }
+
 .orcamento_dados p {
   margin-top: 10px;
 }
+
 .dados-h3 {
   padding-top: 30px;
 }
+
 img-produtos {
   display: block;
   width: 100%;
   margin-top: 10px;
 }
+
 .produto_info {
-  background: #000;
+  background: black;
 }
+
 .produto_info p {
-  color: #fff;
+  color: white;
   font-size: 18px;
   line-height: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 30px 40px;
   height: 180px;
 }
+
 .produto_info ul li {
   background: #fec63e;
   text-transform: uppercase;
-  font-weight: 700;
-  color: #000;
+  font-weight: bold;
+  color: black;
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.1em;
@@ -1148,18 +1403,93 @@ img-produtos {
   height: 49px;
   text-align: center;
   padding-top: 16px;
+}
+.produto_info ul li {
   margin-top: 2px;
 }
+
 .produto_info ul li:nth-child(2n) {
   margin-left: 2px;
 }
+
 .quebra {
   padding: 60px 0;
 }
+
 .produto_item {
   margin-bottom: 40px;
   padding-top: 60px;
 }
+
+.bg-portfolio {
+  background-image: url(../img/bg-portfolio.jpg);
+}
+
+.bg-portfolio h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bg-portfolio h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
+}
+
+.bg-portfolio p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+}
+
+.quote_clientes {
+  padding: 0 0 60px 0;
+}
+.quote_clientes p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  position: relative;
+  padding: 60px 0 20px 0;
+  max-width: 460px;
+  margin: 0 auto;
+  color: black;
+  font-style: italic;
+  line-height: 25px;
+  text-align: center;
+}
+
+.quote_clientes cite {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  color: black;
+  float: right;
+  margin-right: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio {
+  margin: 0 auto;
+  padding: 60px 0;
+  display: block;
+  width: 100%;
+}
+
+.portfolio-img :last-child {
+  margin-top: 10px;
+}
+
 .contato-bg {
   background-image: url(../img/bg-contato.jpg);
   background-size: cover;
@@ -1169,161 +1499,197 @@ img-produtos {
   margin-top: 92px;
   text-align: center;
 }
+
 .contato-bg h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   line-height: 20px;
   letter-spacing: 0.1em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 20px;
 }
+
 .contato-bg h1::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
-  margin: 12px auto 6px;
+  background: white;
+  margin: 12px auto 6px auto;
 }
+
 .contato-bg p {
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #fff;
+  color: white;
   padding-top: 10px;
 }
+
 .contato_dados label {
-  color: #000;
+  color: black;
   font-size: 18px;
   font-style: normal;
   line-height: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: block;
 }
+
 .contato_dados {
   margin-top: 40px;
 }
+
 .botao:hover {
-  border-color: #000;
-  color: #000;
+  border-color: black;
+  color: black;
 }
+
 .contato_info {
   float: left;
   margin-right: 10px;
 }
+
 .contato_info h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   color: #fec63e;
   line-height: 20px;
   text-transform: uppercase;
 }
-.contato_info span {
+
+.contato_info .contato-span {
   color: black;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 30px;
   display: block;
 }
+
 .contato_info .contato-child {
   margin-top: 20px;
 }
+
 .contato_sociais {
   padding-top: 20px;
 }
+
 .contato_sociais h3 {
   line-height: 80px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   color: #fec63e;
   text-transform: uppercase;
   text-align: left;
 }
+
 .contato_sociais ul li {
   display: inline-block;
 }
+
 .contato_sociais a {
   border: 3px solid #fec63e;
   display: block;
   padding: 10px;
 }
+
 .contato_sociais a:hover {
-  border-color: #000;
+  border-color: black;
 }
+
 .contato_mapa {
   margin: 40px auto;
 }
+
+/* Estilo para tablet */
 @media only screen and (min-width: 778px) and (max-width: 979px) {
+  /* Qualidade Home */
   .qualidade::after {
     right: 66px;
     z-index: -1;
   }
+
   .qualidade-lista li {
     text-align: center;
     padding: 30px;
   }
+
+  /* Footer */
   .footer_sociais a {
     border: 3px solid #fec63e;
     display: block;
     padding: 5px;
   }
+
   .footer_sociais a img {
     width: 28px;
     height: 28px;
   }
+
   .footer {
     padding: 10px 0;
   }
+
   .produto_item .h2-produto {
     top: -150px;
     margin-bottom: -60px;
   }
+
   .logo-produto {
-    background: #000;
+    background: black;
     padding: 41px 0;
   }
+
   .produto_info p {
-    color: #fff;
+    color: white;
     font-size: 14px;
     line-height: 25px;
     font-family: Georgia, "Times New Roman", Times, serif;
     padding: 20px 30px;
     height: 122px;
   }
+
   .produto_info ul li {
     width: 181px;
     height: 49px;
     padding-top: 6px;
   }
+
   .quote_clientes cite {
     font-size: 18px;
     line-height: 25px;
-    font-weight: 700;
-    color: #000;
+    font-weight: bold;
+    color: black;
     float: right;
     margin-right: 110px;
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+
+/* Estilo para smartphone */
 @media only screen and (max-width: 787px) {
+  /* Header */
   .header {
     position: relative;
     padding-bottom: 0;
   }
+
   .header img {
-    margin: 0 auto 20px;
+    margin: 0 auto 20px auto;
   }
+
   .header_menu {
     text-align: center;
   }
+
   .header_menu ul li {
     margin: 5px;
   }
+
   .header_menu ul li a {
-    border: 4px solid #000;
+    border: 4px solid black;
     width: 136px;
     float: left;
     font-size: 14px;
@@ -1331,65 +1697,80 @@ img-produtos {
     padding: 10px 0;
     display: block;
   }
+
   .header_menu ul li a:hover {
-    color: #fff;
-    border-color: #fff;
+    color: white;
+    border-color: white;
   }
+  /* Introdução */
   .introducao {
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 0px;
+    padding-top: 0px;
   }
+
   .introducao h1 {
     line-height: 45px;
     margin-top: 30px;
     font-size: 36px;
   }
+
   .call {
     padding-top: 4px;
   }
+
   .qualidade::after {
     display: none;
   }
+
   .qualidade-lista li {
     padding: 10px 0;
   }
+
   .bg-sobre {
-    padding-top: 0;
-    margin-top: 0;
+    padding-top: 0px;
+    margin-top: 0px;
   }
+
   .historia-missao p {
     padding: 0;
     font-size: 14px;
     margin-top: 20px;
   }
+
   .historia-missao h2 {
     margin-bottom: 0;
   }
+
   .valores_subtitulo ul li {
-    color: #000;
+    color: black;
     font-size: 14px;
     line-height: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
+
   .bg-produtos {
-    margin-top: 0;
+    margin-top: 0px;
   }
+
   .produto_item .h2-produto {
     top: -100px;
     margin-bottom: -68px;
   }
+
   .logo-produto {
-    background: #000;
+    background: black;
     padding: 41px 0;
   }
+
   .produto_info p {
-    color: #fff;
+    color: white;
     font-size: 14px;
     line-height: 20px;
     font-family: Georgia, "Times New Roman", Times, serif;
     height: auto;
     padding: 20px 30px;
   }
+
   .produto_info ul li {
     width: 149px;
     height: 49px;
@@ -1397,22 +1778,26 @@ img-produtos {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .bg-portfolio {
     margin-top: 0;
   }
+
   .quote_clientes cite {
     font-size: 18px;
     line-height: 25px;
-    font-weight: 700;
-    color: #000;
+    font-weight: bold;
+    color: black;
     float: right;
     margin-right: 2px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .contato-bg {
-    margin-top: 0;
+    margin-top: 0px;
   }
+
   .contato_dados {
-    padding-right: 0;
+    padding-right: 0px;
   }
 }
